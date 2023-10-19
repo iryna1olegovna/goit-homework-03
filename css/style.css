@@ -43,8 +43,8 @@ body {
 <!--------------HEADER------------>
 
 .page-header {
-    margin-top: 28px;
-    margin-bottom: 30px;
+    padding-top: 28px;
+    padding-bottom: 30px;
 }
 
 
@@ -67,7 +67,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 452px;
+    max-width: 450px;
     margin-right: 334px;
     margin: auto;
 }
@@ -86,6 +86,7 @@ body {
 .menu-link-list {
     display: flex;
     column-gap: 40px;
+   
 }
 
 address {
@@ -99,7 +100,7 @@ address {
 
 .logotype-link-list {
     margin-right: 77px;
-    margin-left: 154px;
+    
 }
 
 .logotype-link-list{
