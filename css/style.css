@@ -176,14 +176,12 @@ address {
 
 .button-order {
 margin-top: 48px;
-margin-bottom: 188px
+margin-bottom: 180px
 margin-left: auto;
 margin-right: auto;
 display: inline-flex;
 padding: 16px 32px;
-align-items: flex-start;
 gap: 10px;
-
 align-items: center;
 
 }
@@ -196,12 +194,7 @@ align-items: center;
     line-height: 1.5; 
     letter-spacing: 0.04em;
     color: #FFF;
-    margin-top: 48px;
-    margin-bottom: 188px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    align-items: center;
+
     
 
 }
