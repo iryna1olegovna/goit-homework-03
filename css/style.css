@@ -229,6 +229,18 @@ address {
     column-gap: 40px;
 }
 
+.benefits-list{
+    width: calc((100% - 3 * 24px) / 4);
+}
+
+.benefits {
+    margin-bottom: .5rem;
+}
+
+
+
+
+
 .benefits {
    font-family: Roboto;
    font-size: 20px;
@@ -252,21 +264,20 @@ address {
 <!-----------TEAM------------>
 
 .section {
-    padding-top: 55px;
-    padding-bottom: 120px;
+    padding: 120px 0;
+}
+
+.team-section {
+    background-color: #F4F4FD;
 }
 
 .team-section-head {
-    width: 162px;
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
-    padding-top: 132px
+    margin-bottom: 72px;
+    text-align: center;
 
 }
 
 .team-section-head {   
-    text-align: center;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -276,6 +287,11 @@ address {
     color:#2E2F42;
 }
 
+.team-section-order-list {
+width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #fff;
+}
 .team-section-list {
     background-color: #FFFFFF
 }
