@@ -146,6 +146,13 @@ address {
     color: #404bbf
 }
 
+
+<!--------HERO------->
+.hero-section {
+    background-color: #2E2F42;
+    padding-top: 188px;
+}
+
 .hero-page{
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -155,11 +162,30 @@ address {
     line-height: 1.07; 
     letter-spacing: 0.02em;
     color: #FFF;
+    width:496px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 183px;
 }
 
 .menu-item:hover, 
 .menu-item:focus {
     color: #404bbf;
+}
+
+.button-order {
+margin-top: 48px;
+margin-bottom: 188px
+margin-left: auto;
+margin-right: auto;
+display: inline-flex;
+padding: 16px 32px;
+align-items: flex-start;
+gap: 10px;
+
+align-items: center;
+
 }
 
 .button {
@@ -170,7 +196,20 @@ address {
     line-height: 1.5; 
     letter-spacing: 0.04em;
     color: #FFF;
+    margin-top: 48px;
+    margin-bottom: 188px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    align-items: center;
+    
+
 }
+
+
+
+
+
 
 .benefits {
    font-family: Roboto;
@@ -189,6 +228,23 @@ address {
     line-height: 1.5; 
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+
+<!-----------TEAM------------>
+
+.section {
+    padding-top: 55px;
+    padding-bottom: 120px;
+}
+
+.team-section-head {
+    width: 162px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    padding-top: 132px
+
 }
 
 .team-section-head {   
