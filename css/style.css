@@ -89,16 +89,10 @@ button {
 
 }
 
-margin-right: auto;
-margin-left: auto;
-margin-bottom: 48px;
-max-width: 496px;
-color: #ffffff;
-font-size: 56px;
-font-weight: 700;
-line-height: 1.07;
-letter-spacing: 0.02em;
-text-align: center;
+
+.menu.list.item:not(:last-child) {
+    margin-right: 40px;
+}
 
 .container {
     width: 1158px;
