@@ -398,7 +398,7 @@ address {
   .services{
     margin-bottom: 8px;
   }
-  
+
 .services{
     font-size: 20px;
     font-style: normal;
@@ -418,6 +418,10 @@ address {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+
+
+/* Footer */
 
 .logo-footer {
     font-family: "Raleway", sans-serif;
@@ -448,9 +452,19 @@ address {
     line-height: 1.5; 
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    --color-footer-text: var(--color-cloud);
 
 }
 
+.footer {
+    padding: 100px 0;
+    background-color: #2e2f42;
+}
+
+.footer .logo {
+    margin-bottom: 16px;
+    display: inline-block;
+  }
 
 /* <!--------BACKGROUND--------> */
 .page-header{ 
