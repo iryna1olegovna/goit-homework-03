@@ -7,9 +7,20 @@
     box-sizing: border-box;
   }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    letter-spacing: .02em;
+    line-height: 1.5;
+    font-style: normal;
+}
+
 .list {
     list-style-type: none;
 }
+
 .link {
     text-decoration: none;
 }
@@ -38,9 +49,9 @@ p {
     margin: 0;
 }
 
+
 ul {
     list-style: none;
-    list-style-type: none;
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
@@ -66,14 +77,10 @@ button {
 }
 
 
-body {
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
-}
 
 
-<!--------------HEADER------------>
+
+/* --------------HEADER------------ */
 
 .page-header {
     padding-top: 28px;
@@ -111,7 +118,7 @@ body {
 
 
 
-.menu-link-list {
+.menu-list {
     display: flex;
     column-gap: 40px;
    
@@ -144,18 +151,14 @@ address {
 
 }
 
-.menu-item-link-list {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-style: normal;
+.menu-list-link {
     font-weight: 500;
-    line-height: 1.5; 
-    letter-spacing: 0.02em;
     color: #2E2F42;
+    padding: 24px 0;
 }
 
-.menu-item-link-list:hover,
-.menu-item-link-list:focus {
+.menu-list-link:hover,
+.menu-list-link:focus {
     color: #404bbf;
 }
 
@@ -175,7 +178,7 @@ address {
 }
 
 
-<!--------HERO------->
+/* --------HERO------- */
 .hero-section {
     background-color: #2E2F42;
     padding-top: 180px 0;
@@ -236,7 +239,7 @@ address {
 }
 
 
-<!-----------BENEFITS-------------->
+/* <!-----------BENEFITS--------------> */
 
 .benefits-main {
    padding: 120px 0;
@@ -266,13 +269,6 @@ address {
 
 .benefits {
     margin-bottom: .5rem;
-}
-
-
-
-
-
-.benefits {
    font-family: Roboto;
    font-size: 20px;
    font-style: normal;
@@ -293,29 +289,23 @@ address {
 }
 
 
-<!-----------TEAM------------>
+/* <!-----------TEAM------------> */
 
 .section {
     padding: 120px 0;
 }
 
-.team-section {
+.section-background {
     background-color: #F4F4FD;
 
 }
 
 .team-section-head {
     margin-bottom: 72px;
-    text-align: center;
-
-}
-
-.team-section-head {   
+    text-align: center;  
     font-size: 36px;
     font-style: normal;
-    font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.02em;
     text-transform: capitalize;
     color:#2E2F42;
 }
@@ -361,7 +351,7 @@ address {
 
 
 
-<!--------------Portfolio------------------>
+/* <!--------------Portfolio------------------> */
 .portfolio-section-head {
     
     text-align: center;
@@ -427,7 +417,7 @@ address {
 }
 
 
-<!--------BACKGROUND-------->
+/* <!--------BACKGROUND--------> */
 .page-header{ 
     background: #FFF;
     border-bottom: 1px solid #e7e9fc;
@@ -447,9 +437,7 @@ address {
     background: #F4F4FD;
 }
 
-.portfolio-section {
-    background: #FFF;
-}
+
 
 .footer-section {
     background: #2E2F42;
