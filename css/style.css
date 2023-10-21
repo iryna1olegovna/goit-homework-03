@@ -94,9 +94,13 @@ button {
     margin-right: 40px;
 }
 
+.menu-list-item {
+    gap: 40px;
+}
+
 .container {
     width: 1158px;
-    margin: 0;
+    margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;;  
 }
