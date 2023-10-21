@@ -269,6 +269,7 @@ address {
 
 .team-section {
     background-color: #F4F4FD;
+
 }
 
 .team-section-head {
@@ -293,11 +294,15 @@ width: calc((100% - 3 * 24px) / 4);
   background-color: #fff;
 }
 .team-section-list {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    display: flex;
+    column-gap: 24px;
 }
 
 .team-section-order-list {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    width: 264px;
+    height: 260px;
 }
 
 .names {
