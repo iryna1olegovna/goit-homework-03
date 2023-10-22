@@ -268,7 +268,7 @@ address {
 
 .list {
     display: flex;
-    column-gap: 40px;
+    column-gap: 24px;
 }
 
 .benefits-list{
