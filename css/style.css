@@ -90,7 +90,7 @@ button {
 }
 
 
-.menu.list.item:not(:last-child) {
+.menu-list-item:not(:last-child) {
     margin-right: 0;
 }
 
@@ -165,7 +165,7 @@ address {
     color: #404bbf;
 }
 
-.link-contacts {
+.contacts {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -175,8 +175,16 @@ address {
     color: #434455;
 }
 
-.link-contacts:hover,
-.link-contacts:focus {
+.adress-item{
+    gap: 40px;
+}
+
+.adress-item:not(:last-child) {
+    margin-right: 0;
+}
+
+.contacts:hover,
+.contacts:focus {
     color: #404bbf
 }
 
@@ -250,16 +258,16 @@ address {
 }
 
 .visually-hidden {
- position: absolute;
- width:1px;
- height: 1px;
- margin: -1px;
- border: 0;
- padding: 0;
- white-space: nowrap;
- clip-path: inset (100%);
- clip: rect (0 0 0 0);
- overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .list {
@@ -396,10 +404,7 @@ address {
     border-top: none;
     padding: 32px 16px;
   }
- 
-  .services{
-    margin-bottom: 8px;
-  }
+
 
 .services{
     font-size: 20px;
@@ -408,6 +413,7 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .services-dercription{
