@@ -344,8 +344,7 @@ address {
     padding: 32px 0;
 }
 
-.names {
-    
+.names { 
     text-align: center;
     font-size: 20px;
     font-style: normal;
@@ -353,6 +352,7 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 } 
 
 .position {
