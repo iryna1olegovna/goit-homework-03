@@ -89,14 +89,6 @@ button {
 
 }
 
-.adress-item{
-    gap: 40px;
-}
-
-.adress-item:not(:last-child) {
-    margin-right: 0;
-}
-
 .menu-list-item:not(:last-child) {
     margin-right: 0;
 }
@@ -179,6 +171,13 @@ address {
     color: #434455;
 }
 
+.list{
+    gap: 40px;
+}
+
+.adress-item:not(:last-child) {
+    margin-right: 0;
+}
 
 .contacts:hover,
 .contacts:focus {
@@ -371,8 +370,8 @@ address {
 
 
 /* <!--------------Portfolio------------------> */
+
 .portfolio-section-title {
-    
     text-align: center;
     font-size: 36px;
     font-style: normal;
@@ -437,6 +436,8 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-footer-span {
