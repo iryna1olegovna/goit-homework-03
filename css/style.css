@@ -266,16 +266,16 @@ address {
     overflow: hidden;
 }
 
-.list {
+.benefits-list {
     display: flex;
     column-gap: 24px;
 }
 
-.benefits-list{
+.benefits-list-item {
     flex-basis: calc((100% - 72px) / 4);
 }
 
-.benefits-list:not(:last-child) {
+.benefits-list-item:not(:last-child) {
     margin-right: 24px;
 }
 
