@@ -89,12 +89,19 @@ button {
 
 }
 
+.adress-item{
+    gap: 40px;
+}
+
+.adress-item:not(:last-child) {
+    margin-right: 0;
+}
 
 .menu-list-item:not(:last-child) {
     margin-right: 0;
 }
 
-.menu-list-item {
+.menu-list {
     gap: 40px;
 }
 
@@ -124,12 +131,9 @@ button {
     justify-content: space-between;
 }
 
-
-
 .menu-list {
     display: flex;
-    column-gap: 40px;
-   
+    column-gap: 40px;  
 }
 
 address {
@@ -175,13 +179,6 @@ address {
     color: #434455;
 }
 
-.adress-item{
-    gap: 40px;
-}
-
-.adress-item:not(:last-child) {
-    margin-right: 0;
-}
 
 .contacts:hover,
 .contacts:focus {
