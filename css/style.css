@@ -106,10 +106,7 @@ button {
 .page-navigation {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    max-width: 450px;
-    margin-right: 334px;
-    margin: auto;
+    margin:auto;
 }
 
 .list-address {
@@ -183,11 +180,6 @@ address {
 /* --------HERO------- */
 .hero-section {
     background-color: #2E2F42;
-    padding-top: 180px 0;
-    
-}
-
-.hero-section {
     padding: 188px 0;
 }
 
@@ -318,14 +310,12 @@ address {
 }
 
 .team-list-item {
-    background: #ffffff;
     width: calc((100% - 24px * 3) / 4);
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-list {
-    background-color: #FFFFFF;
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
@@ -447,14 +437,14 @@ address {
 }
 
 .text-footer{
+    display: flex;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5; 
     letter-spacing: 0.02em;
     color: #F4F4FD;
-    --color-footer-text: var(--color-cloud);
-
+    width:264px;
 }
 
 .footer {
